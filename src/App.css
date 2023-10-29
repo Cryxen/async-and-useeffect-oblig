@@ -1,0 +1,19 @@
+.movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    max-width: 20rem;
+}
+.movieCard img {
+    max-height: 10rem;
+    max-width: 10rem;
+}
+
+.movieSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px 24px;
+}
